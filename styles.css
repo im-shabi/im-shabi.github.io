@@ -1,0 +1,45 @@
+body {
+    background-color: #dda255;
+    font-family: Verdana, sans-serif;
+    color: white;
+    margin: 30px;
+}
+
+h1 {
+    color: #036684;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #036684;
+    margin-top: 25px;
+}
+
+a {
+    color: #ffcccb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p, li {
+    font-size: 15px;
+}
+
+hr {
+    border: 1px solid #aaa;
+    margin: 20px 0;
+}
+
+.moods {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.moods div {
+    text-align: center;
+}
